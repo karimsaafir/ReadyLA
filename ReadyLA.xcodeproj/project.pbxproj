@@ -26,6 +26,7 @@
 		EE5FAF891575930700F235D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5FAF5C1575930600F235D9 /* Foundation.framework */; };
 		EE5FAF911575930700F235D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE5FAF8F1575930700F235D9 /* InfoPlist.strings */; };
 		EE5FAF941575930700F235D9 /* ReadyLATests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FAF931575930700F235D9 /* ReadyLATests.m */; };
+		EE5FAF9E1575962C00F235D9 /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = EE5FAF9D1575962C00F235D9 /* main.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,28 +44,29 @@
 		EE5FAF5A1575930600F235D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EE5FAF5C1575930600F235D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EE5FAF5E1575930600F235D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EE5FAF621575930600F235D9 /* ReadyLA-Info.plist */ = {isa = PBXFileReference; path = "ReadyLA-Info.plist"; sourceTree = "<group>"; };
+		EE5FAF621575930600F235D9 /* ReadyLA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReadyLA-Info.plist"; sourceTree = "<group>"; };
 		EE5FAF641575930600F235D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EE5FAF661575930600F235D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EE5FAF681575930600F235D9 /* ReadyLA-Prefix.pch */ = {isa = PBXFileReference; path = "ReadyLA-Prefix.pch"; sourceTree = "<group>"; };
-		EE5FAF691575930600F235D9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE5FAF681575930600F235D9 /* ReadyLA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReadyLA-Prefix.pch"; sourceTree = "<group>"; };
+		EE5FAF691575930600F235D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE5FAF6A1575930600F235D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EE5FAF6D1575930600F235D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		EE5FAF701575930600F235D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		EE5FAF721575930600F235D9 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		EE5FAF721575930600F235D9 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		EE5FAF731575930600F235D9 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		EE5FAF751575930600F235D9 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		EE5FAF771575930600F235D9 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		EE5FAF791575930600F235D9 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		EE5FAF791575930600F235D9 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		EE5FAF7A1575930600F235D9 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		EE5FAF7C1575930600F235D9 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		EE5FAF7E1575930600F235D9 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		EE5FAF851575930700F235D9 /* ReadyLATests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadyLATests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5FAF861575930700F235D9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		EE5FAF8E1575930700F235D9 /* ReadyLATests-Info.plist */ = {isa = PBXFileReference; path = "ReadyLATests-Info.plist"; sourceTree = "<group>"; };
+		EE5FAF8E1575930700F235D9 /* ReadyLATests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReadyLATests-Info.plist"; sourceTree = "<group>"; };
 		EE5FAF901575930700F235D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EE5FAF921575930700F235D9 /* ReadyLATests.h */ = {isa = PBXFileReference; path = ReadyLATests.h; sourceTree = "<group>"; };
+		EE5FAF921575930700F235D9 /* ReadyLATests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadyLATests.h; sourceTree = "<group>"; };
 		EE5FAF931575930700F235D9 /* ReadyLATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadyLATests.m; sourceTree = "<group>"; };
+		EE5FAF9D1575962C00F235D9 /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		EE5FAF4B1575930600F235D9 = {
 			isa = PBXGroup;
 			children = (
+				EE5FAF9D1575962C00F235D9 /* main.png */,
 				EE5FAF601575930600F235D9 /* ReadyLA */,
 				EE5FAF8C1575930700F235D9 /* ReadyLATests */,
 				EE5FAF591575930600F235D9 /* Frameworks */,
@@ -249,6 +252,7 @@
 				EE5FAF781575930600F235D9 /* first@2x.png in Resources */,
 				EE5FAF7D1575930600F235D9 /* second.png in Resources */,
 				EE5FAF7F1575930600F235D9 /* second@2x.png in Resources */,
+				EE5FAF9E1575962C00F235D9 /* main.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
